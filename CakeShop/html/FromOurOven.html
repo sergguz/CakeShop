@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/FromOurOvenStyle.css" type="text/css">
+    <script type="text/javascript" src="../javascript/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../javascript/mainJavaScript.js"></script>
+    <title>From Our Oven</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="inside">
+            <div id="logo_slogan2">
+                <img id="logo_image2" src="../Images/logoBakeryTemp2.jpeg" /><br />
+                <div id="slogan2">
+                    <h3> We make bakery an art of flavours</h3>                                   
+                </div>
+            </div>          
+            <div id="divNav">
+                <nav>
+                    <a href="../html/index.html">HOME</a>
+                    <a href="../html/FromOurOven.html">FROM OUR OVEN</a>
+                    <a href="../html/signIn.html">SIGN IN</a>
+                    <a href="../html/contactUs.html">CONTACT US</a>
+                </nav>
+            </div>
+            <div class="line1">
+                <div id="option1">
+                    <img id="image1" src="../Images/brownieFilled2.jpg" />
+                    <div id="price1">
+                        <strong>
+                            Filled Brownie (2) <br />Price: $14.00 + tx<br />Quantity:
+                        </strong> 
+                         <input id="quantityBrownie" type="number" value="0" step="2" ondrop="return false;" onkeypress="return event.charCode >= 48 && event.charCode<=57" />
+                    </div>
+                </div>
+                <div id="option2">
+                    <img id="image2" src="../Images/ChocoAlmonds2.jpg" />
+                    <div id="price2">
+                        <strong>
+                            Choco Almonds (2) <br />Price: $12.00 + tx<br />Quantity:
+                        </strong> 
+                        <input id="quantityChoco" type="number" value="0" step="2" ondrop="return false;" onkeypress="return event.charCode >= 48 && event.charCode<=57" />
+                    </div>
+                </div>
+                <div id="option3">
+                    <img id="image3" src="../Images/Escones.jpg" />
+                    <div id="price3">
+                        <strong>
+                            Salty Scones (2) <br />Price: $12.00 + tx<br />Quantity:
+                        </strong> 
+                        <input id="quantityEscones" type="number" value="0" step="2" ondrop="return false;" onkeypress="return event.charCode >= 48 && event.charCode<=57" />
+                    </div>
+                </div>
+                <div id="option4">
+                    <img id="image4" src="../Images/RoseCupCakes2.jpg" />
+                    <div id="price4">
+                        <strong>
+                            Rose Bread (2) <br />Price: $12.00 + tx<br />Quantity:
+                        </strong> 
+                        <input id="quantityCupCakes" type="number" value="0" step="2" ondrop="return false;" onkeypress="return event.charCode >= 48 && event.charCode<=57" />
+                    </div>
+                </div>
+                <div id="option5">
+                    <img id="image5" src="../Images/EsconesMaracuya.jpg" />
+                    <div id="price5">
+                        <strong>
+                            Scones with Raisins and Maracuya (2) <br />Price: $15.00 + tx<br />Quantity:
+                        </strong> 
+                        <input id="quantityMaracuya" type="number" value="0" step="2" ondrop="return false;" onkeypress="return event.charCode >= 48 && event.charCode<=57" />
+                    </div>
+                </div>
+                <div id="option6">
+                    <img id="image6" src="../Images/BananaBread2.jpg" />
+                    <div id="price6">
+                        <strong>
+                            Banana Bread (Loaf) <br />Price: $15.00 + tx<br />Quantity:
+                        </strong> 
+                        <input id="quantityBananaBread" type="number" value="0" ondrop="return false;" onkeypress="return event.charCode >= 48 && event.charCode<=57" />
+                    </div>
+                </div>
+                <div id="buttonBuyDiv">
+                    <input id="buttonBuy" type="button" value="Finish and Buy" onclick="placeOrder()" />
+                </div>              
+            </div>           
+        </div>
+    </div>
+
+</body>
+</html>

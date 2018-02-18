@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/SignUpCss.css" type="text/css">
+    <script src="../javascript/mainJavaScript.js"></script>
+    <script type="text/javascript" src="../javascript/jquery-3.2.1.min.js"></script>   
+    <script type="text/javascript" src="../javascript/jquery.validate.min.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="inside">
+            <header>
+                <div id="logo_slogan">
+                    <img id="logo_image" src="../Images/logoBakeryTemp2.jpeg" />
+                    <h3 id="slogan"> We make bakery an art of flavours</h3>
+                </div>
+
+                <nav>
+                    <a href="../html/index.html">HOME</a>
+                    <a href="../html/FromOurOven.html">FROM OUR OVEN</a>
+                    <a href="../html/signIn.html">SIGN IN</a>
+                    <a href="../html/contactUs.html">CONTACT US</a>
+                </nav>
+            </header>
+            <!--<form id="registerForm">-->
+                <table id="tableSignUp">
+                    <tr>
+                        <td><strong>Email: </strong></td>
+                        <td><input type="email" id="inputEmail" name="email" required/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Username: </strong></td>
+                        <td><input type="text" id="inputUsername" name="username" required/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Password: </strong></td>
+                        <td><input type="password" id="inputPassword" name="password" required/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Name: </strong></td>
+                        <td><input type="text" id="inputName" name="clientName" required/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Delivery Address: </strong></td>
+                        <td><input type="text" id="inputAddress" name="address" required/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Phone number: </strong></td>
+                        <td><input type="text" id="inputPhone" name="phone"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="button" value="Sign Up" id="btnSignUp" onclick="createUser()" /></td>
+                    </tr>
+                </table>
+            <!--</form>-->
+            <div id="qualityClass">
+                <img id="qualityImg" src="../Images/QualitySeal.jpg" />
+            </div>
+            <div id="qualityMessage">
+                <h6>Best Family Bakery Certified</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.bg {
+    height: 965px;
+    width: 1900px;
+    position: relative;
+    background-image: url('../Images/tapiz.bmp');
+    background-size: cover;
+}
+.bg .inside{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 965px;
+    background-color: #8e5445;
+}
+nav {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(237,210,4,0.6);
+    z-index: 99;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+    line-height: 50px;
+    font-family: Arial; 
+}
+#logo_image {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+#slogan {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: #c8c3c3;
+    font-family: cursive;
+}
+#slogan2 {
+    margin: auto;
+    position: relative;
+    width: 200px;
+    font-family: Arial;
+    color: #c8c3c3;
+    margin-bottom: 50px;
+}
+
+#tableSignIn{
+    margin: auto;
+    position: relative;
+}
+#usernameSignIn{
+    height: 30px;
+}
+#passwordSignIn{
+    height: 30px;
+}
+#btnSignIn {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+#btnSignIn:hover{
+    cursor: pointer;
+}
+#qualityClass {
+    margin-top: 200px;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin-left: 400px;
+    float: left;
+}
+
+#qualityImg {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#qualityMessage {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    margin: auto;
+    float: left;
+    text-align: center;
+    margin-top: 210px;
+}
